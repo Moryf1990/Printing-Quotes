@@ -10,7 +10,7 @@ button.on('click', function (e) {
 	button1 = prompt('Who said it?');
 
 	if (button !== null) {
-		console.log(button1 + ' says, ' + button);
+		console.log(button1 + ' says, ' + '"' + button + '"');
 	}
 });
 
